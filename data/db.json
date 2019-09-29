@@ -1,4 +1,14 @@
 {
+    "relatorios": [
+      {
+      	"matriz": "consultaPessoaDefault",
+        "parametros": {
+          "cpf_data_de_nascimento": "20/08/1881",
+          "cpf_nome": "Alvo Percival Wulfric Brian Dumbledore",
+          "cpf_numero": "71393401881"
+      	}
+      }
+    ],
     "pessoas": [
       {
         "cpf": "31071980687",
