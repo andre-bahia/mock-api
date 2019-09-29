@@ -12,7 +12,6 @@
     ],
     "relatorios_status": [
       {
-        "result": {
             "id": 1,
             "numero": "e70195bc-025a-4d36-9c84-0132aba204b5",
             "status": "CONCLUIDO",
@@ -25,9 +24,7 @@
             "atualizado_em": "2018-11-19T19:39:43.565Z",
             "criado_em": "2018-11-19T19:34:46.515Z",
             "criado_por": "Alvo Percival Wulfric Brian Dumbledore"
-        },
-        "status_code": 200
-      }
+        }
     ],
     "relatorio_validacoes": [
       {
