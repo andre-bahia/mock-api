@@ -6,6 +6,6 @@ COPY . /app
 
 RUN npm config set registry http://registry.npmjs.org/ && npm install
 
-CMD node server.js
-
 EXPOSE 8081
+
+CMD node server.js

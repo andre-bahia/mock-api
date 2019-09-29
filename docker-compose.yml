@@ -2,3 +2,5 @@ version: "3"
 services:
   webapp:
     build: .
+    ports:
+      - "8081:8081"
