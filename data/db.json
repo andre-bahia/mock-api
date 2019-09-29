@@ -1,6 +1,7 @@
 {
     "relatorios": [
       {
+        "id": 1,
       	"matriz": "consultaPessoaDefault",
         "parametros": {
           "cpf_data_de_nascimento": "20/08/1881",
@@ -9,18 +10,85 @@
       	}
       }
     ],
+    "relatorios_status": [
+      {
+        "result": {
+            "id": 1,
+            "numero": "e70195bc-025a-4d36-9c84-0132aba204b5",
+            "status": "CONCLUIDO",
+            "nome": "consultaPessoaDefault",
+            "mensagem": "Válido.",
+            "resultado": "VALID",
+            "validado_em": "2018-11-19T19:34:46.815Z",
+            "validado_por": null,
+            "validado_manualmente": false,
+            "atualizado_em": "2018-11-19T19:39:43.565Z",
+            "criado_em": "2018-11-19T19:34:46.515Z",
+            "criado_por": "Alvo Percival Wulfric Brian Dumbledore"
+        },
+        "status_code": 200
+      }
+    ],
+    "relatorio_validacoes": [
+      {
+        "atualizado_em": "2018-11-19T19:39:43.565Z",
+        "mensagem": "Válido.",
+        "nome": "consultaPessoaDefault",
+        "numero": "e70195bc-025a-4d36-9c84-0132aba204b5",
+        "resultado": "VALID",
+        "status": "CONCLUIDO",
+        "validacoes": [
+          {
+            "regra": "idwall.matrix.regras.cpf.RegraNomeReceitaFederal",
+            "nome": "Nome na Receita Federal",
+            "descricao": "Nome deve ser igual ao cadastrado na Receita Federal",
+            "resultado": "VALID"
+          },
+          {
+            "regra": "idwall.matrix.regras.protestos.RegraProtestos",
+            "nome": "Protestos",
+            "descricao": "Não devem constar protestos",
+            "resultado": "VALID"
+          },
+          {
+            "regra": "idwall.matrix.regras.cpf.RegraSituacaoReceitaFederal",
+            "nome": "Situação Cadastral Regular",
+            "descricao": "Situação cadastral do CPF deve ser REGULAR",
+            "resultado": "VALID"
+          },
+          {
+            "regra": "idwall.matrix.regras.antecedentes.RegraAntecedente",
+            "nome": "Antecedentes Criminais",
+            "descricao": "Não deve constar antecedentes criminais",
+            "resultado": "VALID"
+          },
+          {
+            "regra": "idwall.matrix.regras.cpf.RegraObito",
+            "nome": "Registro de óbito na Receita Federal",
+            "descricao": "Não deve constar registro de óbito na Receita Federal",
+            "resultado": "VALID"
+          }
+        ],
+        "validado_em": "2018-09-19T19:34:46.815Z",
+        "validado_manualmente": false,
+        "validado_por": null
+      }
+    ],
     "pessoas": [
       {
+        "id": 1,
         "cpf": "31071980687",
         "nome": "Harry Thiago Potter",
         "atualizado_em": "2018-11-20T16:12:38.120Z"
       },
       {
+        "id": 2,
         "cpf": "38190719790",
         "nome": "Hermione Jean Granger",
         "atualizado_em": "2018-11-19T20:37:26.285Z"
       },
       {
+        "id": 3,
         "cpf": "38519800301",
         "nome": "Ronald Bílius Weasley",
         "atualizado_em": "2018-11-19T19:39:43.565Z"
