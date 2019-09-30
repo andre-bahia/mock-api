@@ -1,6 +1,10 @@
 {
   "name": "api-mock",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andre-bahia/mock-api.git"
+  },
   "description": "api-mock",
   "main": "server.js",
   "scripts": {

@@ -3,8 +3,8 @@ var bodyParser = require('body-parser')
 var fs = require('fs')
 const uuidv1 = require('uuid/v1');
 var app = express()
-var filename = './data/relatorios.json';
-var fileNameStatus = './data/status.json';
+var filename = './relatorios.json';
+var fileNameStatus = './status.json';
 
 var statusMock =  {
   "status": "CONCLUIDO",
