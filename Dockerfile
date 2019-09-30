@@ -1,10 +1,10 @@
-FROM node:10
+FROM node:10.16.3
 
 WORKDIR /app
 
 COPY . /app
 
-RUN npm config set registry http://registry.npmjs.org/ && npm install
+RUN npm install
 
 EXPOSE 8081
 
